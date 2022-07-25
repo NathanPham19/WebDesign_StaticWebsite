@@ -1,0 +1,53 @@
+.center {
+    text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+    ul.breadcrumb a{
+        padding: 3px;
+        list-style: none;
+        background-color: white;
+    }
+    
+    ul.breadcrumb li a{
+        display: inline;
+        font-size: 15px;
+        color: black;
+        background-color:white;
+        
+    }
+    li {
+         float: left;
+    }
+
+    li a {
+        display: block;
+        color:white;
+        padding: 12px;
+        background-color: brown;
+        text-decoration: none;
+        }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 15px;
+    }
+
+    .row::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .vertical{
+        display: flex;
+        flex-direction: column;
+        
+    }
